@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Roboto+Slab:wght@500&display=swap");
+
+* {
+  font-family: "Fraunces", serif;
+  font-family: "Roboto Slab", serif;
+}
+
+.card {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 20px;
+  /* border: 1px solid grey; */
+  border-radius: 20px;
+  padding: 2% 5%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box {
+  /* border: 10px solid; */
+  width: 80%;
+  margin: auto;
+}
+.avatar{
+    size:'2xl'
+}
+
+@media screen and (max-width : 600px){
+    .card{
+        width: 90%;
+    }
+    .box{
+        width: 90%;
+    }
+    .name{
+        font-size: 13px;
+    }
+}
