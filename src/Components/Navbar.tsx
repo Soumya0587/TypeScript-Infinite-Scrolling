@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/Navbar.css";
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 import { GiConcentrationOrb } from "react-icons/gi";
 import { useNavigate, Link } from "react-router-dom";
 
